@@ -17,10 +17,11 @@ Plugin 'kien/ctrlp.vim'
 Plugin 'vim-syntastic/syntastic'
 Plugin 'nvie/vim-flake8'
 
-
 call vundle#end()            " required
 filetype plugin indent on    " required
 
 let python_highlight_all=1
 syntax on
 set number
+
+nmap <s-n> :NERDTreeToggle<CR>
