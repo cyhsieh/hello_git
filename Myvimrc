@@ -14,7 +14,8 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'rstacruz/sparkup'
 Plugin 'scrooloose/nerdtree'
 Plugin 'kien/ctrlp.vim'
-Plugin 'vim-syntastic/syntastic'
+Plugin 'hdima/python-syntax'
+Plugin 'vim-scripts/indentpython.vim
 Plugin 'nvie/vim-flake8'
 
 call vundle#end()            " required
